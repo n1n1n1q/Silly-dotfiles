@@ -1,0 +1,119 @@
+@import url("colors-waybar.css");
+* {
+  border: none;
+  border-radius: 0;
+  font-family: hack;
+  font-weight: bold;
+  font-size: 22px;
+  min-height: 0;
+}
+
+
+window#waybar {
+  background: transparent;
+  color: #638548;
+}
+
+tooltip {
+  background: @background;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #11111b;
+}
+tooltip * {
+  color: @color2;
+  background: transparent;
+  text-shadow: none;
+}
+
+#workspaces button {
+  padding: 5px;
+  color: @color2;
+  margin-right: 5px;
+}
+
+#workspaces button.active {
+  color: @color2;
+  background: transparent;
+  padding-right: 10px;
+  border-radius: 40px;
+}
+
+#workspaces button.focused {
+  color: @color2;
+  background: @color2;
+  border-radius: 40px;
+}
+
+#workspaces button.urgent {
+  color: @color2;
+  background: transparent;
+  border-radius: 40px;
+}
+
+#workspaces button:hover {
+  /* background: #11111b; */
+  background: transparent;
+  color: #cdd6f4;
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+}
+
+#custom-power, #custom-notification ,#clock, #battery, #wireplumber, #network, #workspaces, #tray, #backlight, #bluetooth {
+  background: @background;
+  padding: 0px 10px;
+  margin: 3px 0px;
+}
+
+#tray {
+  border-radius: 10px;
+  margin-right: 4px;
+}
+
+#workspaces {
+  background: @background;
+  border-radius: 10px;
+  padding-right: 0px;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+
+#custom-notification{
+  color: @color2;
+}
+
+#clock {
+  color: @color2;
+  border-radius: 10px;
+}
+
+#network {
+  color: @color2;
+  border-radius: 10px 0px 0px 10px;
+  padding-right: 12px;
+}
+
+#bluetooth{
+  color: @color2;
+}
+
+#wireplumber {
+  color: @color2;
+}
+
+#battery{
+  color: @color2;
+}
+
+#backlight{
+  color: @color2;
+}
+#custom-power{
+  color: @color2;
+  background: @background;
+  border-radius: 0 10px 10px 0;
+  margin-right: 5px;
+}
