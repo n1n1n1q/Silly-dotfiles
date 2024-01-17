@@ -29,8 +29,12 @@ walogram
 bluez
 bluez-utils
 ntfs-3g
-olkit-kde-agent
+polkit-kde-agent
 qt5-wayland
 qt6-wayland
 xdg-desktop-portal-wlr
 xdg-desktop-portal-hyprland
+sddm
+thunar
+ranger
+playerctl
