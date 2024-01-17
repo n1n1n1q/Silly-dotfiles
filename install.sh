@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 if [ "$EUID" -eq 0 ]; then
     echo "Please run this script as a regular user, not as root."
     exit 1
@@ -52,9 +52,26 @@ if [[ "$user_input" == "y" || "$user_input" == "Y" ]]; then
     yay -S --noconfirm asusctl supergfxd
     echo "ROG packages installation complete."
     printf " Activating ROG services...\n"
-    sudo systemctl enable --now supergfxd 2>&1 | tee -a "$LOG"
+    sudo systemctl enable --now supergfxd 2>&1
 else
     echo "User chose not to install 'rog' package. Exiting."
 fi
 
+echo "Install packages"
+yay -S --noconfirm - < packages
 
+chsh -s $(which zsh)
+
+sudo systemctl enable --now bluetooth
+sudo systemctl enable --now NetworkManager
+sudo systemctl enable --now pipewire pipewire-pulse wireplumber
+sudo systemctl enable sddm
+
+cp .config $HOME/ -r
+cp scripts $HOME/ -r
+cp .zshrc $HOME/ -r
+cp pacman.conf /etc/
+
+echo "Manually add wrappedhp to PATH and wayland sessions if you have Nvidia card."
+echo "You should reboot your system now"
+esac
