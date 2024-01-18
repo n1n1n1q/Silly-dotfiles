@@ -64,13 +64,12 @@ chsh -s $(which zsh)
 
 sudo systemctl enable --now bluetooth
 sudo systemctl enable --now NetworkManager
-sudo systemctl enable --now pipewire pipewire-pulse wireplumber
 sudo systemctl enable sddm
 
 cp .config $HOME/ -r
 cp scripts $HOME/ -r
 cp .zshrc $HOME/ -r
-cp pacman.conf /etc/
+sudo cp pacman.conf /etc/
 
 echo "Manually add wrappedhp to PATH and wayland sessions if you have Nvidia card."
 echo "You should reboot your system now"
