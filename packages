@@ -3,6 +3,7 @@ rofi-lbonn-wayland
 swaync
 swaylock
 swww
+swayidle
 waybar
 wayland-logout
 qt5-wayland
