@@ -88,7 +88,7 @@
     "format": "{icon} {volume}%",
     "format-muted": " Muted",
     "scroll-step": 1,
-    "on-click": "sleep 0.2 && alacritty -e pulsemixer",
+    "on-click": "sleep 0.2 && ~/scripts/rofi/rofi-mixer",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
