@@ -4,10 +4,11 @@
 ### General info
 **WM:** Hyprland  
 **Launcher:** Rofi  
-**Bar**: Waybar  
+**Bar:** Waybar  
 **Notifications:** swaync  
 **Terminal:** Alacritty  
-**Shell**: zsh + starship  
+**Shell:** zsh + starship  
+**GTK-Theme:** Graphite-dark
 ### Keybinds:
 * Super+Q -- kill
 * Suer+R -- terminal
