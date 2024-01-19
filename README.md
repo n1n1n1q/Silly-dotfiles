@@ -34,5 +34,6 @@
 * ericmurphyxyz/rofi-wifi-menu
 * nickclyde/rofi-bluetooth
 * develcooking/hyprland-dotfiles wallpaper-launcher *a bit reworked by me*
+* dharmx/walls - wallpapers
   
 *install script is WIP*
