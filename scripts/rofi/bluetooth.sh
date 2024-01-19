@@ -305,7 +305,7 @@ show_menu() {
 }
 
 # Rofi command to pipe into, can add any options here
-rofi_command="rofi -dmenu $* -location 3 -p"
+rofi_command="rofi -dmenu $* -location 3 -config "~/.config/rofi/bluetooth.rasi" -p"
 
 case "$1" in
     --status)
