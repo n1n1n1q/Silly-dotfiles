@@ -1,4 +1,2 @@
 #!/bin/bash
-swayidle -w \
-timeout 300 ' swaylock ' \
-timeout 900 'systemctl suspend'
+swayidle timeout 300 'swaylock' timeout 360 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on' timeout 600 'systemctl suspend' 

@@ -1,7 +1,7 @@
 hyprland
 rofi-lbonn-wayland
 swaync
-swaylock
+swaylock-effects
 swww
 swayidle
 waybar
@@ -46,3 +46,4 @@ wl-clipboard
 wl-clip-persist-git
 cliphist
 swappy
+brightness-ctl
