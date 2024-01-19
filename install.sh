@@ -66,6 +66,8 @@ sudo systemctl enable --now bluetooth
 sudo systemctl enable --now NetworkManager
 sudo systemctl enable sddm
 
+gsettings set org.gnome.desktop.interface gtk-theme Graphite-dark
+
 cp .config $HOME/ -r
 cp scripts $HOME/ -r
 cp .zshrc $HOME/ -r
