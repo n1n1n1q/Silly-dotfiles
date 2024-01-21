@@ -1,4 +1,4 @@
-# Hyprland Silly Dotfile >.<
+# Hyprland Silly Dotfiles >.<
 ![](https://i.imgur.com/12Ntlhd.jpg"showcase")
 *tried to pywal everything*
 ### General info
