@@ -6,7 +6,7 @@
 **Launcher:** Rofi  
 **Bar:** Waybar  
 **Notifications:** swaync  
-**Terminal:** Alacritty  
+**Terminal:** Kitty   
 **Shell:** zsh + starship  
 **GTK-Theme:** Graphite-dark
 ### Keybinds:
