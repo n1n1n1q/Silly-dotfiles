@@ -9,7 +9,6 @@ wayland-logout
 qt5-wayland
 qt6-wayland
 xdg-desktop-portal-hyprland
-alacritty
 zsh
 neofetch
 neovim
@@ -48,3 +47,5 @@ swappy
 brightness-ctl
 graphite-gtk-theme
 otf-comicshanns-nerd
+kitty
+python-pillow

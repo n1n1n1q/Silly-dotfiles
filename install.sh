@@ -71,6 +71,7 @@ gsettings set org.gnome.desktop.interface gtk-theme Graphite-dark
 cp .config $HOME/ -r
 cp scripts $HOME/ -r
 cp .zshrc $HOME/ -r
+cp .vscode $HOME/ -r
 sudo cp pacman.conf /etc/
 
 echo "Manually add wrappedhp to PATH and wayland sessions if you have Nvidia card."
