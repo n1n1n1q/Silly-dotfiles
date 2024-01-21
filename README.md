@@ -1,5 +1,5 @@
-# Hyprland dotfiles
-![](https://i.imgur.com/5JD07ny.jpg "showcase")
+# Hyprland Silly Dotfile >.<
+![](https://i.imgur.com/12Ntlhd.jpg"showcase")
 *tried to pywal everything*
 ### General info
 **WM:** Hyprland  
@@ -21,13 +21,16 @@
 * Super+Shift+Tab -- wallpaper selector 
 * Alt+Tab -- cyclenext (next windows in the workspace)
 ### Screenshots
-![](https://i.imgur.com/5JD07ny.jpg "showcase")
-![](https://i.imgur.com/EDP0oN8.png)  
-![](https://i.imgur.com/1CtXOQ2.png)
-![](https://i.imgur.com/TiprHGg.png)
-![](https://i.imgur.com/e4cHNME.png)
-![](https://i.imgur.com/Vm16KZ2.png)
-![](https://i.imgur.com/2JJuPOf.png)  
+![](https://i.imgur.com/12Ntlhd.jpg"showcase")
+![](https://i.imgur.com/qB7GCxa.jpg)
+![](https://i.imgur.com/bOcLtKW.png)  
+![](https://i.imgur.com/NJmd797.png)
+![](https://i.imgur.com/6iwxTs4.png)
+![](https://i.imgur.com/ETbhxc6.png)
+![](https://i.imgur.com/hhoMy64.png)
+![](https://i.imgur.com/ELppYg9.png)
+![](https://i.imgur.com/ueAVyJT.png)
+![](https://i.imgur.com/joRyWY2.png)  
 *if you have an asus laptop, there is a gui rofi script to change fans mode*  
 ### Credits:
 * joshpetit/rofi-mixer
@@ -35,5 +38,5 @@
 * nickclyde/rofi-bluetooth
 * develcooking/hyprland-dotfiles wallpaper-launcher *a bit reworked by me*
 * dharmx/walls - wallpapers
-  
+* neofetch image - Nesyah on devianart  
 *install script is WIP*
